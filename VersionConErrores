@@ -5,8 +5,8 @@ function formatSheet() {
   // 2. Rango mal definido (faltan comillas)
   var range = sheet.getRange(A1:D10); 
   
-  // 3. Método incorrecto (setBackgroud en vez de setBackground)
-  range.setBackgroud("blue");
+  // 3. Método incorrecto (setBackgroud en vez de setBackground) SOLUCIÓN DE CARLA
+  range.setBackground("blue");
   
   // 4. Error de color (el color 'verde-claro' no existe como constante)
   sheet.getRange("A1").setBackground("verde-claro");
