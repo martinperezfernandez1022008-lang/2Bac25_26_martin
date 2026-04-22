@@ -23,8 +23,8 @@ function formatSheet() {
   // 8. Error de tamaño (setSize no existe, es setFontSize)
   range.setSize(14);
   
-  // 9. Error de lógica (Rango fuera de límites o nulo)
-  var cell = sheet.getRange(0, 0); 
+  // 9. Error de lógica (Rango fuera de límites o nulo) corregido por seyoum
+  var cell = sheet.getRange(1, 2); 
   
   // 10. Error de llamada (getRange con minúscula inicial)
   sheet.getrange("C3").setValue("Error");
