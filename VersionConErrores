@@ -11,8 +11,8 @@ function formatSheet() {
   // 4. Error de color (el color 'verde-claro' no existe como constante)
   sheet.getRange("A1").setBackground("verde-claro");
   
-  // 5. Error en nombre de método (setFontStyle en vez de setFontWeight para negrita)
-  sheet.getRange("B2").setFontStyle("bold");
+  // 5. Error en nombre de método (setFontStyle en vez de setFontWeight para negrita) SOLUCIÓN DE YANIRA
+  sheet.getRange("B2").setFontWeight("bold");
   
   // 6. Error de sintaxis (punto y coma faltante) SOLUCIÓN DE AITOR
   var nombre = "Proyecto";
